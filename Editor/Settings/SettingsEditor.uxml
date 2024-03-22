@@ -1,0 +1,17 @@
+<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements">
+    <engine:Label text="ServerSync" style="font-size: 20px; -unity-font-style: bold; margin: 4px 4px;" />
+
+    <engine:VisualElement style="margin: 2px 6px;">
+        <editor:PropertyField binding-path="m_IsEnabled" />
+        <editor:PropertyField binding-path="m_BuildPath" />
+        <editor:PropertyField binding-path="m_WindowStyle" />
+        <editor:PropertyField binding-path="m_ExcludeShadersFromBuild" />
+        <editor:PropertyField binding-path="m_WaitForNotify" />
+        <editor:PropertyField binding-path="m_WaitForNotifyPort" />
+        <editor:PropertyField binding-path="m_WaitForNotifyTimeout" />
+    
+        <engine:VisualElement style="margin: 4px 0px;" />
+    
+        <engine:Button name="reset-button" text="Reset To Defaults" />
+    </engine:VisualElement>
+</engine:UXML>

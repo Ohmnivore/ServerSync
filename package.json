@@ -1,0 +1,17 @@
+{
+  "name": "com.ohmnivore.serversync",
+  "author": "Ohmnivore",
+  "description": "Builds and launches a server executable when entering Play mode",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "displayName": "ServerSync",
+  "license": "MIT",
+  "keywords": [
+    "Server",
+    "Iteration",
+    "Network",
+    "Networking",
+    "Netcode"
+  ],
+  "dependencies": {}
+}
